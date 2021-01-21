@@ -24,7 +24,7 @@
 body{
     height: 100vh;
     width: 100vw;
-    background-image: url(/assets/star-wars-stars.png);
+    background-image: url(https://raw.githubusercontent.com/Etienne223/star-wars/main/assets/star-wars-stars.png);
     background-size: 50%;
     font-family: NewGoth, sans-serif;
     color: #FED507;
