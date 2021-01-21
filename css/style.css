@@ -112,8 +112,31 @@ header h1{
 #logo img{
     position: relative;
     margin: auto;
-    width: 100%
+    width: 100%;
+    animation: star 5.7s ease-out infinite;
+    padding: 115px;
+    opacity: 0;
+    
 } 
+
+@keyframes star {
+
+    0% {
+      opacity: 0;
+      transform: scale(1.5) translateY(-0.75em);
+    }
+    20% {
+      opacity: 1;
+    }
+    89% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 1;
+      transform: translateZ(-1000em);
+    }
+  }
 
 #logo figcaption{
     display: none;
@@ -132,7 +155,7 @@ header h1{
     text-align: justify;
     font-size: 600%;
     line-height: 95px;
-    animation: comingUp 20s linear;
+    animation: comingUp 60s linear;
     overflow:visible;
     }
 
