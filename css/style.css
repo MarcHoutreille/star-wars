@@ -54,42 +54,6 @@ main{
     }
   }
 
-/*header{
-    height: 100vh;
-    width: 100vw;
-    background-color: black;
-    animation: fadeOut 5s;
-    display: none;
-    }
-
-header h1{
-    color: cyan;
-    font-size: 50px;
-    transform: rotate3d(0, 0, 0, 0deg);
-    padding: 25%;
-
-}
-
-@keyframes fadeOut {
-
- 
-    0%{
-        display: ;
-        opacity : 1;
-    }
-
-    65%{
-        opacity : 0.75;
-    }
-
-    85%{
-        opacity: 0,75;
-    }
-    100%{
-        opacity: 0;
-    }
-} */
-
 /* ============================
     Image + Img Animation
 ============================ */
@@ -114,9 +78,9 @@ header h1{
     margin: auto;
     width: 100%;
     animation: star 5.7s ease-out infinite;
-    padding: 115px;
+    padding: 140px;
     opacity: 0;
-    
+    animation-iteration-count: 1;
 } 
 
 @keyframes star {
@@ -155,7 +119,7 @@ header h1{
     text-align: justify;
     font-size: 600%;
     line-height: 95px;
-    animation: comingUp 60s linear;
+    animation: comingUp 75s linear;
     overflow:visible;
     }
 
